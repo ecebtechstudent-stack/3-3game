@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X-O WAR</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>X-O WAR</h1>
+<p class="crafted">CRAFTED BY ANKIT • 2026</p>
+
+<div class="levels">
+  <button id="easyBtn" class="active" onclick="setLevel('easy')">EASY 😊</button>
+  <button id="hardBtn" class="inactive" onclick="setLevel('hard')">HARD 😈</button>
+</div>
+
+<p id="status">Your Turn - You are X</p>
+
+<div class="board-wrap">
+  <div class="board" id="board"></div>
+  <div id="result"></div>
+</div>
+
+<button class="restart" onclick="resetGame()">Restart Game</button>
+
+<script src="script.js"></script>
+</body>
+</html>
